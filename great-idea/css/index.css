@@ -155,3 +155,51 @@ button{
 	  margin: 2%;
   }
 /* Service page code starts here*/
+header nav {
+	display:flex;
+	justify-content: flex-start;
+}
+  
+nav a {
+	margin: 5%;
+	font-size: 14px;
+	color: gray;
+	text-decoration: none;
+  }
+.logo {
+	 display:flex;
+	 justify-content: flex-end;
+	 width: 25%;
+	 height: 50px;
+	 margin:3%;
+  }
+  h3{
+	  font-size: 15px;
+  }
+  .middle-box{
+	  display:flex;
+	  flex-direction: column;
+  }
+  .text-container{
+	  display:flex;
+	  flex-direction:column;
+	  flex-wrap: wrap;
+	  border: 1px solid gray;
+	  
+
+  }
+  /*.text{
+	  flex-direction:column;
+	  flex-wrap: wrap;
+	  border: 1px solid gray:*/
+	  
+  }
+  .bottom-box{
+	  border top: 1px solid black;
+	  display:flex;
+
+  }
+
+  .text .digital-design{
+	  border: 1px solid gray:
+  }
