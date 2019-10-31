@@ -62,11 +62,10 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-nav {
-	display: inline;
-	text-align:center;
-	margin: 10px;
-  }
+header nav {
+	display:flex;
+	justify-content: flex-start;
+}
   
 nav a {
 	margin: 5%;
@@ -74,10 +73,8 @@ nav a {
 	color: gray;
 	text-decoration: none;
   }
-.logo {
-	  display:inline-block;
-	  float: right;
-	  margin;5%;
+header .logo {
+	 
   }
   
   h1{
@@ -96,9 +93,7 @@ nav a {
 	  vertical-align: right;
 	  
   }
-  /*.all-content{
-	  display: inline-block;
-  }*/
+ 
    .top-content {
 	border-top: 1px solid black;
 	margin: 2px;
