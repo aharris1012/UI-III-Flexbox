@@ -77,6 +77,8 @@ nav a {
 	 display:flex;
 	 justify-content: flex-end;
 	 width: 25%;
+	 height: 50px;
+	 margin:3%;
   }
   
   h1{
