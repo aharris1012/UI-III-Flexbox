@@ -186,8 +186,10 @@ nav a {
 	  margin:5%;
   }
  
-  	.text-container{
+  	.text-container .content{
 	  display:flex;
+	  flex-wrap:wrap;
+	  justify-content:center;
 	  
   }
   
@@ -213,7 +215,6 @@ nav a {
   .facts{
    width: 50%;
    margin: 5%;
-   display:flex;
   }
 .service-info-img{
 	margin:5%;
