@@ -175,25 +175,32 @@ nav a {
   }
   h3{
 	  font-size: 15px;
+	  margin:2%;
   }
-  .middle-box{
+  .top{
 	  display:flex;
-	  flex-direction: column;
+	  
+	
+  }
+  .middle{
+	  margin:5%;
   }
   .text-container{
 	  display:flex;
 	  flex-direction:column;
 	  flex-wrap: wrap;
 	  border: 1px solid gray;
-	  
-
   }
   .text{
-	  display:flex;
-	  flex-flow:column;
-	  flex-wrap: wrap;
+	display:flex;
+	border: 1px solid gray;
+  }
+
+  
 	  
-	  
+  }
+  .text .content{
+	  width:20%;
   }
   .bottom-box{
 	  border-top: 1px solid black;
@@ -201,10 +208,16 @@ nav a {
 
   }
 
-  .text .digital-design{
-	  border: 1px solid gray;
-  }
-  .bottom-box .bottom-text{
+  
+	.bottom-box{
 	  display:flex;
-	  justify-content: space-around;
+	  
   }
+  .facts{
+   width: 50%;
+   margin: 5%;
+  }
+.service-info-img{
+	margin:5%;
+
+}
