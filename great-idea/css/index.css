@@ -180,18 +180,19 @@ nav a {
 	  display:flex;
 	  flex-direction: column;
   }
-  .text-container{
+  /*.text-container{
 	  display:flex;
 	  flex-direction:column;
 	  flex-wrap: wrap;
-	  border: 1px solid gray;
+	  border: 1px solid gray;*/
 	  
 
   }
-  /*.text{
-	  flex-direction:column;
+  .text{
+	  display:flex;
+	  flex-flow:column;
 	  flex-wrap: wrap;
-	  border: 1px solid gray:*/
+	  
 	  
   }
   .bottom-box{
@@ -202,4 +203,8 @@ nav a {
 
   .text .digital-design{
 	  border: 1px solid gray:
+  }
+  .bottom-box{
+	  display:flex;
+	  justify-content: space-around;
   }
