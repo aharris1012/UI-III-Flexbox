@@ -180,11 +180,11 @@ nav a {
 	  display:flex;
 	  flex-direction: column;
   }
-  /*.text-container{
+  .text-container{
 	  display:flex;
 	  flex-direction:column;
 	  flex-wrap: wrap;
-	  border: 1px solid gray;*/
+	  border: 1px solid gray;
 	  
 
   }
@@ -196,15 +196,15 @@ nav a {
 	  
   }
   .bottom-box{
-	  border top: 1px solid black;
+	  border-top: 1px solid black;
 	  display:flex;
 
   }
 
   .text .digital-design{
-	  border: 1px solid gray:
+	  border: 1px solid gray;
   }
-  .bottom-box{
+  .bottom-box .bottom-text{
 	  display:flex;
 	  justify-content: space-around;
   }
